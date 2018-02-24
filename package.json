@@ -1,0 +1,15 @@
+{
+  "name": "kittygram",
+  "version": "1.0.0",
+  "description": "![hack-cat](https://media.giphy.com/media/uzglgIsyY1Cgg/giphy.gif) ## GA_WDI_13_ATX: Final Project. Kitstagram is a community for cat lovers, who want to share stories/photos of the cats they come across in their every day, or virtual lives. Everyone knows that cats are the best thing on social media...so why not turn it into social MEOW-dia? (that hurt me more to say, than it hurt you to read) This is a continuation of my project 2 app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd front-end && npm start\" \"cd back-end && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
